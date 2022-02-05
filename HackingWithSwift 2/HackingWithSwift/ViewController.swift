@@ -9,14 +9,13 @@
 import UIKit
 
 class ViewController: UITableViewController {
-    var projects = [Project]()
+    let projects: [Project] = Bundle.main.decode(from: "projects.json")
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Hacking with Swift"
         navigationController?.navigationBar.prefersLargeTitles = true
-        projects = loadedProjects
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
