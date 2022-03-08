@@ -18,11 +18,13 @@ class DetailViewController: UIViewController {
 
         navigationItem.largeTitleDisplayMode = .never
         title = "Project \(project.number)"
-
-        
+    }
+    
+    override func loadView() {
+        view = DetailView(project: project, readAction: readProject)
     }
 
-    @objc func readProject() {
+    func readProject() {
         guard let readVC = storyboard?.instantiateViewController(withIdentifier: "ReadViewController") as? ReadViewController else {
             return
         }
