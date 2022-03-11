@@ -21,7 +21,6 @@ class ViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let project = dataSource.projects[indexPath.row]
         let project = dataSource.project(at: indexPath.row)
 
         guard let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController else {

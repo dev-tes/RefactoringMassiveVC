@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0407E42327DC05F200EA9A8B /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407E42227DC05F200EA9A8B /* NavigationDelegate.swift */; };
+		0407E42527DC083300EA9A8B /* WebView+LoadString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407E42427DC083300EA9A8B /* WebView+LoadString.swift */; };
 		04340DF127CC0180009815CB /* ProjectDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340DF027CC0180009815CB /* ProjectDataSource.swift */; };
 		0494D55B27D7F0CF00C517EC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D55A27D7F0CF00C517EC /* DetailView.swift */; };
 		04C49AD127AECB6E009C17DE /* Bundle+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C49AD027AECB6E009C17DE /* Bundle+Decoding.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0407E42227DC05F200EA9A8B /* NavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
+		0407E42427DC083300EA9A8B /* WebView+LoadString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView+LoadString.swift"; sourceTree = "<group>"; };
 		04340DF027CC0180009815CB /* ProjectDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDataSource.swift; sourceTree = "<group>"; };
 		0494D55A27D7F0CF00C517EC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		04C49AD027AECB6E009C17DE /* Bundle+Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decoding.swift"; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				519AE17021947AB5001F5CFF /* projects.json */,
 				04C49AD027AECB6E009C17DE /* Bundle+Decoding.swift */,
 				04340DF027CC0180009815CB /* ProjectDataSource.swift */,
+				0407E42227DC05F200EA9A8B /* NavigationDelegate.swift */,
+				0407E42427DC083300EA9A8B /* WebView+LoadString.swift */,
 			);
 			path = HackingWithSwift;
 			sourceTree = "<group>";
@@ -223,6 +229,8 @@
 				0494D55B27D7F0CF00C517EC /* DetailView.swift in Sources */,
 				519AE16D21947911001F5CFF /* DetailViewController.swift in Sources */,
 				519AE14F2194787D001F5CFF /* ViewController.swift in Sources */,
+				0407E42527DC083300EA9A8B /* WebView+LoadString.swift in Sources */,
+				0407E42327DC05F200EA9A8B /* NavigationDelegate.swift in Sources */,
 				04C49AD127AECB6E009C17DE /* Bundle+Decoding.swift in Sources */,
 				519AE14D2194787D001F5CFF /* AppDelegate.swift in Sources */,
 				519AE16F219479E3001F5CFF /* Project.swift in Sources */,
